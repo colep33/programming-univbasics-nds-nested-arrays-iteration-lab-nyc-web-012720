@@ -1,7 +1,7 @@
 def join_ingredients(src)
   row_index = 0
    3.times do
-    print "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+    puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
