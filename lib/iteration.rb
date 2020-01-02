@@ -1,6 +1,6 @@
 def join_ingredients(src)
   row_index = 0
-   3.times do
+   while row_index < 2 do
     puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
